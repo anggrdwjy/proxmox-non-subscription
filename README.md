@@ -59,6 +59,6 @@ chmod -R 777 *
 ## Bugs
 
 Please open an issue on GitHub with as much information as possible if you found a bug.
-* Your operating system / Linux distribution
+* Your Proxmox Version
 * All the logs and message outputted
 * etc
