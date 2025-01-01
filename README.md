@@ -24,7 +24,7 @@
 Before using this program, make sure to install `git` to maximize the program. I am not responsible for any consequences caused by this program. It is recommended to use this script when the new server is installed. This program has been tested on Proxmox 7.4 - 8.3.
 
 ## Features
-* Non-Subscription Proxmox For Update
+* Non-Subscription Proxmox for Update Repository
 
 ## Support OS
 * Proxmox 7.4
