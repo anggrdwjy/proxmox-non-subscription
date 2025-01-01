@@ -1,1 +1,5 @@
+#For Ceph Quincy
 deb http://download.proxmox.com/debian/ceph-quincy bookworm no-subscription
+
+#For Ceph Reef
+#deb http://download.proxmox.com/debian/ceph-reef bookworm no-subscription
