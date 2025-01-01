@@ -44,8 +44,8 @@ case $choice in
    echo "                                                  ";
    if [[ ! $REPLY =~ ^[Nn]$ ]] 
    then
-   cp /etc/apt/sources.list.d/pve-enterprise.list /etc/apt/sources.list.d/pve-enterprise.list.bak
-   cp /etc/apt/sources.list.d/ceph.list /etc/apt/sources.list.d/ceph.list.bak
+   mv /etc/apt/sources.list.d/pve-enterprise.list /etc/apt/sources.list.d/pve-enterprise.list.bak
+   mv /etc/apt/sources.list.d/ceph.list /etc/apt/sources.list.d/ceph.list.bak
    cp support-8.3/pve-enterprise.list /etc/apt/sources.list.d/pve-enterprise.list
    cp support-8.3/ceph.list /etc/apt/sources.list.d/ceph.list
    apt-get update
@@ -60,8 +60,8 @@ case $choice in
    echo "                                                  ";
    if [[ ! $REPLY =~ ^[Nn]$ ]] 
    then
-   cp /etc/apt/sources.list /etc/apt/sources.list.bak
-   cp /etc/apt/sources.list.d/ceph.list /etc/apt/sources.list.d/ceph.list.bak
+   mv /etc/apt/sources.list /etc/apt/sources.list.bak
+   mv /etc/apt/sources.list.d/ceph.list /etc/apt/sources.list.d/ceph.list.bak
    cp support-7.4/sources.list /etc/apt/sources.list
    cp support-7.4/ceph.list /etc/apt/sources.list.d/ceph.list
    apt-get update
