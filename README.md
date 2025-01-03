@@ -26,7 +26,7 @@ Before using this program, make sure to install `git` to maximize the program. I
 ## Features
 * Non-Subscription Proxmox for Update Repository
 
-## Support OS
+## Support Proxmox
 * Proxmox 7.4
 * Proxmox 8.3
 
