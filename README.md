@@ -48,7 +48,6 @@ chmod -R 777 *
 
 ## Support
 
-* [:dollar: Give me a tip on Paypal](https://www.paypal.me/AnggardaWijaya)
 * [:octocat: Follow me on GitHub](https://github.com/anggrdwjy)
 * [🔔 Subscribe me on Youtube](https://www.youtube.com/@anggarda.wijaya)
 
