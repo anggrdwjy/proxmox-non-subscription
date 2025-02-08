@@ -58,6 +58,7 @@ case $choice in
    then
    mv /etc/apt/sources.list /etc/apt/sourceslist.bak
    mv /etc/apt/sources.list.d/ceph.list /etc/apt/sources.list.d/cephlist.bak
+   mv /etc/apt/sources.list.d/pve-enterprise.list /etc/apt/sources.list.d/pve-enterpriselist.bak
    cp support-7.4/sources.list /etc/apt/sources.list
    cp support-7.4/ceph.list /etc/apt/sources.list.d/ceph.list
    apt-get update
