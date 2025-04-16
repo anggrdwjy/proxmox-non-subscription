@@ -2,12 +2,12 @@
 
 ## Information
 
-Before using this program, make sure to update the repository 'sudo apt update' and install git 'sudo apt install git -y' to maximize the running of the program. I am not responsible for any consequences caused by this program. It is recommended to use this script when the new server is installed. This program has been tested on Proxmox 7.4 - 8.3.
+Before using this program, make sure to update the repository `sudo apt update` and install git `sudo apt install git -y` to maximize the running of the program. I am not responsible for any consequences caused by this program. It is recommended to use this script when the new server is installed. This program has been tested on Proxmox 7.4 - 8.3.
 
 ## Features
-* Non-Subscription Proxmox for Update Repository
+* Proxmox Non-Subscription for Update Repository
 
-## Support Proxmox
+## Tested Version
 * Proxmox 7.4
 * Proxmox 8.3
 
