@@ -18,7 +18,7 @@ echo "   	  / |/ /__  ___    / __/_ __/ /  ___________(_)__  / /_(_)__  ___     
 echo "   	 /    / _ \/ _ \  _\ \/ // / _ \(_-< __/ __/ / _ \/ __/ / _ \/ _ \    ";
 echo "   	/_/|_/\___/_//_/ /___/\_,_/_.__/___|__/_/ /_/ .__/\__/_/\___/_//_/    ";
 echo "                                              /_/                           ";
-echo "      Version: 1.0 - 01/01/2025                            	            ";
+echo "      Version: 1.1 - 10/07/2025                            	            ";
 echo "      Developer: https://github.com/anggrdwjy              	            ";
 echo "      Support OS : Proxmox 7.4 - Proxmox 8.3                	         ";
 echo "                                                        	            ";
@@ -45,6 +45,8 @@ case $choice in
    cp support-8.3/pve-enterprise.list /etc/apt/sources.list.d/pve-enterprise.list
    cp support-8.3/ceph.list /etc/apt/sources.list.d/ceph.list
    apt-get update
+   sed -Ezi.bak "s/(Ext.Msg.show\(\{\s+title: gettext\('No valid sub)/void\(\{ \/\/\1/g" /usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js
+   systemctl restart pveproxy.service
    echo "                                                  ";
    echo "   ======== Proxmox 8.3 Non-Subscription dan Update Done ========";
    echo "                                                  ";
@@ -62,6 +64,8 @@ case $choice in
    cp support-7.4/sources.list /etc/apt/sources.list
    cp support-7.4/ceph.list /etc/apt/sources.list.d/ceph.list
    apt-get update
+   sed -Ezi.bak "s/(Ext.Msg.show\(\{\s+title: gettext\('No valid sub)/void\(\{ \/\/\1/g" /usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js
+   systemctl restart pveproxy.service
    echo "                                                  ";
    echo "   ======== Proxmox 7.4 Non-Subscription dan Update Done ========";
    echo "                                                  ";
