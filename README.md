@@ -14,11 +14,7 @@ Before using this program, make sure to update the repository `sudo apt update` 
 ## Installing Program
 ```
 git clone https://github.com/anggrdwjy/proxmox-non-subscription.git
-```
-```
 cd proxmox-non-subscription
-```
-```
 chmod -R 777 *
 ```
 
@@ -36,10 +32,6 @@ sudo apt-get update
 
 * [:octocat: Follow me on GitHub](https://github.com/anggrdwjy)
 * [🔔 Subscribe me on Youtube](https://www.youtube.com/@anggarda.wijaya)
-
-## References
-
-* https://pve.proxmox.com/wiki/Package_Repositories
 
 ## Bugs
 
