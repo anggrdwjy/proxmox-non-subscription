@@ -2,7 +2,7 @@
 
 ### Issue Proxmox
 
-Proxmox Failed or Unauthorized update via Repository
+Proxmox failed update via Repository
 
 ```
 root@pve:~# apt update
@@ -35,8 +35,8 @@ N: See apt-secure(8) manpage for repository creation and user configuration deta
 root@pve:~# 
 ```
 
-### Features
-* Simple Script for Update Repository Proxmox 7.4 - 8.3 Non-Subscription
+## Features
+* Script Disable Unauthorized Proxmox For Update Repository
 
 ### Tested Version
 * Proxmox 7.4
@@ -67,8 +67,7 @@ root@pve:~/proxmox-non-subscription#
 ## Running Program
 ```
 root@pve:~/proxmox-non-subscription# ./proxmox-non-subscription.sh
-
-                                                       
+                            
            ___                                           
           / _ \_______ __ __  __ _  ___ __ __            
          / ___/ __/ _ \ \ / /    \/ _ \ \ /            
@@ -105,8 +104,7 @@ Get:7 http://download.proxmox.com/debian/pve bookworm/pve-no-subscription amd64 
 Fetched 588 kB in 2s (281 kB/s)
 Reading package lists... Done
                                                   
-   ======== Proxmox 8.3 Non-Subscription dan Update Done ========
-                                                  
+   ======== Proxmox 8.3 Non-Subscription dan Update Done ========                                       
                                                   
    Back to options list? [y/n]:    
 ```
