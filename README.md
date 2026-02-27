@@ -1,4 +1,4 @@
-## Script Automation For Successfully Update Repository Proxmox Version 7.4 - 8.3 Non Subscription
+## Proof of Concept - Disable Unauthorized Proxmox For Update Repository
 
 ### Issue Proxmox
 
