@@ -1,6 +1,8 @@
 ## Proof of Concept - Disable Unauthorized Proxmox For Update Repository
 
-"Issue" Proxmox failed update via Repository
+### Issue 
+
+Proxmox failed update via Repository
 
 ```
 root@pve:~# apt update
