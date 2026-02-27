@@ -42,7 +42,8 @@ root@pve:~#
 * Proxmox 7.4
 * Proxmox 8.3
 
-### Installing Program
+## Installing Program
+
 ```
 root@pve:~# git clone https://github.com/anggrdwjy/proxmox-non-subscription.git
 Cloning into 'proxmox-non-subscription'...
@@ -63,7 +64,7 @@ drwxrwxrwx 2 root root 4096 Jan  3 17:13 support-8.3
 root@pve:~/proxmox-non-subscription# 
 ```
 
-### Running Program
+## Running Program
 ```
 root@pve:~/proxmox-non-subscription# ./proxmox-non-subscription.sh
 
@@ -110,7 +111,7 @@ Reading package lists... Done
    Back to options list? [y/n]:    
 ```
 
-### Verification Proxmox
+## Verification Proxmox
 ```
 root@pve:~/proxmox-non-subscription# apt update
 Hit:1 http://security.debian.org bookworm-security InRelease
