@@ -1,8 +1,9 @@
 ## This Script Automation For Successfully Update Repository Proxmox Version 7.4 - 8.3 Non Subscription
 
-## Issue Proxmox
+### Issue Proxmox
 
 Proxmox Failed or Unauthorized update via Repository
+
 ```
 root@pve:~# apt update
 Get:1 http://security.debian.org bookworm-security InRelease [48.0 kB]
@@ -34,14 +35,14 @@ N: See apt-secure(8) manpage for repository creation and user configuration deta
 root@pve:~# 
 ```
 
-## Features
+### Features
 * Simple Script for Update Repository Proxmox 7.4 - 8.3 Non-Subscription
 
-## Tested Version
+### Tested Version
 * Proxmox 7.4
 * Proxmox 8.3
 
-## Installing Program
+### Installing Program
 ```
 root@pve:~# git clone https://github.com/anggrdwjy/proxmox-non-subscription.git
 Cloning into 'proxmox-non-subscription'...
@@ -62,7 +63,7 @@ drwxrwxrwx 2 root root 4096 Jan  3 17:13 support-8.3
 root@pve:~/proxmox-non-subscription# 
 ```
 
-## Running Program
+### Running Program
 ```
 root@pve:~/proxmox-non-subscription# ./proxmox-non-subscription.sh
 
@@ -109,7 +110,7 @@ Reading package lists... Done
    Back to options list? [y/n]:    
 ```
 
-## Verification Proxmox
+### Verification Proxmox
 ```
 root@pve:~/proxmox-non-subscription# apt update
 Hit:1 http://security.debian.org bookworm-security InRelease
@@ -129,7 +130,7 @@ root@pve:~/proxmox-non-subscription#
 * [:octocat: Follow me on GitHub](https://github.com/anggrdwjy)
 * [🔔 Subscribe me on Youtube](https://www.youtube.com/@anggarda.wijaya)
 
-## Bugs
+### Bugs
 
 Please open an issue on GitHub with as much information as possible if you found a bug.
 * Your Proxmox Version
