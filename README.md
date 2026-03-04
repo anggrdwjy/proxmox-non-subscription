@@ -4,7 +4,7 @@
 <img src="img/banner.png">
 </p>
 
-### Issue Proxmox failed update via Repository
+#### Issue Proxmox failed update via Repository
 
 ```
 root@pve:~# apt update
@@ -40,7 +40,7 @@ root@pve:~#
 ## Features
 * Script Disable Unauthorized Proxmox For Update Repository
 
-### Tested Version
+#### Tested Version
 * Proxmox 7.4
 * Proxmox 8.3
 
@@ -131,7 +131,7 @@ root@pve:~/proxmox-non-subscription#
 * [:octocat: Follow me on GitHub](https://github.com/anggrdwjy)
 * [🔔 Subscribe me on Youtube](https://www.youtube.com/@anggarda.wijaya)
 
-### Bugs
+#### Bugs
 
 Please open an issue on GitHub with as much information as possible if you found a bug.
 * Your Proxmox Version
