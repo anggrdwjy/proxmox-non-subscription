@@ -1,7 +1,7 @@
 ## Proof of Concept - Disable Unauthorized Proxmox For Update Repository
 
 <p align="center">
-<img src="img/banner.png">
+<img src="img/proxmoxd.png">
 </p>
 
 ### Issue Proxmox failed update via Repository
