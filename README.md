@@ -1,10 +1,10 @@
-## Overview Disable Unauthorized Proxmox For Update Repository
+## A. Overview Disable Unauthorized Proxmox For Update Repository
 
 <p align="center">
 <img src="img/proxmoxd.png">
 </p>
 
-### Issue Proxmox failed update via Repository
+#### Issue Proxmox failed update via Repository
 ```
 root@pve:~# apt update
 Get:1 http://security.debian.org bookworm-security InRelease [48.0 kB]
@@ -43,7 +43,7 @@ root@pve:~#
 * Proxmox 7.4
 * Proxmox 8.3
 
-### Installing Program
+## B. Installing Program
 
 ```
 root@pve:~# git clone https://github.com/anggrdwjy/proxmox-non-subscription.git
@@ -65,7 +65,7 @@ drwxrwxrwx 2 root root 4096 Jan  3 17:13 support-8.3
 root@pve:~/proxmox-non-subscription# 
 ```
 
-### Running Program
+## C. Running Program
 ```
 root@pve:~/proxmox-non-subscription# ./proxmox-non-subscription.sh
                             
@@ -110,7 +110,7 @@ Reading package lists... Done
    Back to options list? [y/n]:    
 ```
 
-### Verification Proxmox
+#### Verification Proxmox
 ```
 root@pve:~/proxmox-non-subscription# apt update
 Hit:1 http://security.debian.org bookworm-security InRelease
