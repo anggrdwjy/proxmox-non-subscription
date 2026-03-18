@@ -1,9 +1,15 @@
-## A. Overview Disable Unauthorized Proxmox For Update Repository
+## A. Overview Disable Unauthorized Proxmox
 
 <p align="center">
 <img src="img/proxmoxd.png">
 </p>
 
+#### Information
+* [A. Overview Disable Unauthorized Proxmox](#a-overview-disable-unauthorized-proxmox)
+* [B. Installing Program](#b-installing-program)
+* [C. Running Program](#c-running-program)
+* [D. Verification](#d-verification)
+  
 #### Issue Proxmox failed update via Repository
 ```
 root@pve:~# apt update
@@ -110,7 +116,7 @@ Reading package lists... Done
    Back to options list? [y/n]:    
 ```
 
-#### Verification Proxmox
+## D. Verification
 ```
 root@pve:~/proxmox-non-subscription# apt update
 Hit:1 http://security.debian.org bookworm-security InRelease
