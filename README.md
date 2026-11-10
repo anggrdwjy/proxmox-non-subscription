@@ -66,6 +66,7 @@ root@pve:~/proxmox-non-subscription#
 ```
 
 #### Running Script
+
 ```
 root@pve:~/proxmox-non-subscription# ./proxmox-non-subscription.sh
                             
@@ -111,6 +112,7 @@ Reading package lists... Done
 ```
 
 #### Verification
+
 ```
 root@pve:~/proxmox-non-subscription# apt update
 Hit:1 http://security.debian.org bookworm-security InRelease
@@ -133,7 +135,7 @@ root@pve:~/proxmox-non-subscription#
 #### Bugs
 
 Please open an issue on GitHub with as much information as possible if you found a bug.
-* Your Proxmox Version
+* Your proxmox version
 * All the logs and message outputted
 * etc
 
