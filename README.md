@@ -1,14 +1,14 @@
-## A. Overview Disable Unauthorized Proxmox
+## Overview Disable Unauthorized Proxmox
 
 <p align="center">
-<img src="img/proxmoxd.png">
+<img src="proxmoxd.png">
 </p>
 
 #### Information
-* [A. Overview Disable Unauthorized Proxmox](#a-overview-disable-unauthorized-proxmox)
-* [B. Installing Program](#b-installing-program)
-* [C. Running Program](#c-running-program)
-* [D. Verification](#d-verification)
+* [Overview Disable Unauthorized Proxmox](#overview-disable-unauthorized-proxmox)
+* [Installing Script](#installing-script)
+* [Running script](#running-script)
+* [Verification](#-verification)
   
 #### Issue Proxmox failed update via Repository
 ```
@@ -49,7 +49,7 @@ root@pve:~#
 * Proxmox 7.4
 * Proxmox 8.3
 
-## B. Installing Program
+## Installing Script
 
 ```
 root@pve:~# git clone https://github.com/anggrdwjy/proxmox-non-subscription.git
@@ -71,7 +71,7 @@ drwxrwxrwx 2 root root 4096 Jan  3 17:13 support-8.3
 root@pve:~/proxmox-non-subscription# 
 ```
 
-## C. Running Program
+## Running Script
 ```
 root@pve:~/proxmox-non-subscription# ./proxmox-non-subscription.sh
                             
@@ -116,7 +116,7 @@ Reading package lists... Done
    Back to options list? [y/n]:    
 ```
 
-## D. Verification
+## Verification
 ```
 root@pve:~/proxmox-non-subscription# apt update
 Hit:1 http://security.debian.org bookworm-security InRelease
@@ -131,7 +131,7 @@ Reading state information... Done
 root@pve:~/proxmox-non-subscription# 
 ```
 
-## Support
+#### Support
 
 * [:octocat: Follow me on GitHub](https://github.com/anggrdwjy)
 * [🔔 Subscribe me on Youtube](https://www.youtube.com/@anggarda.wijaya)
@@ -142,3 +142,9 @@ Please open an issue on GitHub with as much information as possible if you found
 * Your Proxmox Version
 * All the logs and message outputted
 * etc
+
+## Lisensi
+
+This project is licensed under the **MIT License**—it is free to use, modify, and distribute, including for commercial purposes, as long as you include the copyright notice and this license.
+
+See the full file at [`LICENSE`](LICENSE).
