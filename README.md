@@ -36,7 +36,7 @@ root@pve:~#
 ```
 
 #### Features
-* Script Disable Proxmox Enterprise Repository For Update
+* Script Bypass Proxmox Non-subscription or Disable Proxmox Enterprise Repository For Update
 
 #### Tested Version
 * Proxmox 7.4
