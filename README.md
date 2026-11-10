@@ -1,4 +1,3 @@
-## Overview Disable Unauthorized Proxmox
 
 <p align="center">
 <img src="proxmoxd.png">
@@ -37,7 +36,7 @@ root@pve:~#
 ```
 
 #### Features
-* Script Disable Unauthorized Proxmox For Update Repository
+* Script Disable Proxmox Enterprise Repository For Update
 
 #### Tested Version
 * Proxmox 7.4
